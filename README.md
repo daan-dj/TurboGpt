@@ -16,16 +16,20 @@ pip install turbogpt
 ```
 
 ### Getting the PUID & ACCESS_TOKEN
+
+#### REMEMBER YOU NEED TO HAVE CHAT GPT PLUS SUBSCRIPTION TO USE THIS LIBRARY
 ```
 1. Head over to https://chat.openai.com/chat
 2. Open the developer console (F12)
 3. Go to the application tab
 4. Go to local cookies
 5. Copy the value of the _puid cookie
-6. Copy the value of the __Secure-next-auth.session-token cookie
-7. Paste the values into the .env file like so:
+6. Go to the network tab and click on Fetch/XHR
+7. hit refresh and locate the models request
+8. Copy the value of the Authorization header after berear (ey....). (this is the ACCESS_TOKEN)
+9. Paste the values into the .env file like so:
 
-ACCESS_TOKEN=__Secure-next-auth.session-token cookie
+ACCESS_TOKEN=AUTHORIZATION HEADER
 PUID=_puid
 ```
 
