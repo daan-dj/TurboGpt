@@ -65,8 +65,5 @@ print(q['message']['content']['parts'][0])
 ✅ - Back and forth conversation support
 ```
 
-## Youtube Tutorial
-[![TurboGpt Tutorial](https://i.imgur.com/6tLLj7I.jpg)](https://www.youtube.com/watch?v=Ic69TsemE9g&ab_channel=blacksailslabs)
-
 ## TurboGpt-CLI
 Check out a TurboGpt based CLI [here](https://github.com/daan-dj/TurboGpt-cli)
