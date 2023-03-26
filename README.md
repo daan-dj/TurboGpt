@@ -2,6 +2,10 @@
 
 #### A python based wrapper for GPT-4 & GPT-3.5 PLUS. 
 
+
+### Youtube demo / tutorial
+[![TurboGpt Tutorial](https://i.imgur.com/6tLLj7I.jpg)](https://www.youtube.com/watch?v=Ic69TsemE9g&ab_channel=blacksailslabs)
+
 ## Benefits and why.
 There is currently no way to use GPT-4 outside the online chat.openai.com interface. This wrapper allows you to use GPT-4 in your own projects. \
 the current API is extremely slow and even if you have premium it does not speed up the response time. TurboGpt does not use the API and instead uses the same interfaces as the chat.openai.com website.
@@ -60,6 +64,9 @@ print(q['message']['content']['parts'][0])
 ✅ - No waiting
 ✅ - Back and forth conversation support
 ```
+
+## Youtube Tutorial
+[![TurboGpt Tutorial](https://i.imgur.com/6tLLj7I.jpg)](https://www.youtube.com/watch?v=Ic69TsemE9g&ab_channel=blacksailslabs)
 
 ## TurboGpt-CLI
 Check out a TurboGpt based CLI [here](https://github.com/daan-dj/TurboGpt-cli)
