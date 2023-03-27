@@ -39,6 +39,8 @@ PUID=_puid
 
 ## Usage
 
+
+Start a new session
 ```python
 from turbogpt import TurboGpt
 
@@ -49,6 +51,15 @@ print(q['message']['content']['parts'][0])
 ```
 ![image](https://i.imgur.com/lyNqjJp.png)
 
+Resume existing session
+```python
+from turbogpt import TurboGpt
+
+turbogpt = TurboGpt(model="gpt-4")  # or "text-davinci-002-render-sha" (default)(AKA GPT-3.5)
+session = turbogpt.resume_session("uuid-uuid-uuid-uuid")
+q = turbogpt.send_message(input(">>> "), session)
+print(q['message']['content']['parts'][0])
+```
 
 ## Info
 ```text
