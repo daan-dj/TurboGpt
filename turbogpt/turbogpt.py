@@ -72,6 +72,14 @@ class TurboGpt:
         base = json.loads(base[base.find("data: ") + 6:])
         return base
 
+    def resume_session(self, chat_id):
+        res = self.session.get(
+            "https://chat.openai.com/backend-api/conversation/" + chat_id,
+        )
+
+        parent_id = res.json()["current_node"]
+        return {"conversation_id": chat_id, "message": {"id": parent_id}}
+
     def send_message(self, message, old_question):
         res = self.session.post(
             "https://chat.openai.com/backend-api/conversation",
