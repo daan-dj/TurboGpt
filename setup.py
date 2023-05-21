@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="turbogpt",
-    version="1.0.1",
+    version="1.0.5",
     author="daan-dj",
     author_email="daan@jumelet.net",
     description="A python based wrapper for GPT-4 & GPT-3.5 PLUS.",

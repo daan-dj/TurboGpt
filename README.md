@@ -3,11 +3,9 @@
 #### A python based wrapper for GPT-4 & GPT-3.5 PLUS. 
 
 <p align="center">
-Thank you for:
 <br>
-  <img src="https://static.pepy.tech/badge/turbogpt" alt="Sublime's custom image"/>
+  <img style="width: 120px" src="https://static.pepy.tech/badge/turbogpt" alt="Sublime's custom image"/>
 <br>
-Downloads!
 <br>
 </p>
 
