@@ -2,9 +2,18 @@
 
 #### A python based wrapper for GPT-4 & GPT-3.5 PLUS. 
 
+<p align="center">
+Thank you for:
+<br>
+  <img src="https://static.pepy.tech/badge/turbogpt" alt="Sublime's custom image"/>
+<br>
+Downloads!
+<br>
+</p>
 
-### Youtube demo / tutorial
-[![TurboGpt Tutorial](https://i.imgur.com/6tLLj7I.jpg)](https://www.youtube.com/watch?v=Ic69TsemE9g&ab_channel=blacksailslabs)
+
+![TurboGpt Tutorial](https://i.imgur.com/6tLLj7I.jpg)
+
 
 ## Benefits and why.
 There is currently no way to use GPT-4 outside the online chat.openai.com interface. This wrapper allows you to use GPT-4 in your own projects. \
