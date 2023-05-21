@@ -79,6 +79,12 @@ class TurboGpt:
 
         parent_id = res.json()["current_node"]
         return {"conversation_id": chat_id, "message": {"id": parent_id}}
+        
+    def delete_session(self, chat_id):
+        res = self.session.patch(
+            "https://chat.openai.com/backend-api/conversation/" + chat_id,
+            json={"is_visible": "false"}
+        )
 
     def send_message(self, message, old_question):
         res = self.session.post(
